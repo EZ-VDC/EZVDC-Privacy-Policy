@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #1a1a1a;
+      --muted: #6b6b6b;
+      --rule: #e0dbd4;
+      --bg: #f9f7f4;
+      --accent: #2a5caa;
+      --card: #ffffff;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.75;
+      min-height: 100vh;
+      padding: 60px 24px 100px;
+    }
+
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+      margin-bottom: 56px;
+      animation: fadeUp 0.6s ease both;
+    }
+
+    .label {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      padding: 4px 10px;
+      border-radius: 2px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2.2rem, 5vw, 3rem);
+      line-height: 1.15;
+      color: var(--ink);
+      margin-bottom: 16px;
+    }
+
+    .meta {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 40px 0;
+    }
+
+    /* Sections */
+    section {
+      margin-bottom: 44px;
+      animation: fadeUp 0.6s ease both;
+    }
+
+    section:nth-child(2) { animation-delay: 0.1s; }
+    section:nth-child(3) { animation-delay: 0.2s; }
+    section:nth-child(4) { animation-delay: 0.3s; }
+    section:nth-child(5) { animation-delay: 0.4s; }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.25rem;
+      font-weight: 400;
+      margin-bottom: 12px;
+      color: var(--ink);
+    }
+
+    p {
+      font-size: 15px;
+      color: #3a3a3a;
+      margin-bottom: 12px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    /* Highlight card */
+    .card {
+      background: var(--card);
+      border-left: 3px solid var(--accent);
+      padding: 20px 24px;
+      border-radius: 0 6px 6px 0;
+      box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+    }
+
+    .card p {
+      font-size: 14.5px;
+      color: var(--muted);
+    }
+
+    .card strong {
+      color: var(--ink);
+      font-weight: 500;
+    }
+
+    /* Contact */
+    .contact-link {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+    .contact-link:hover { border-color: var(--accent); }
+
+    /* Footer */
+    footer {
+      margin-top: 72px;
+      padding-top: 24px;
+      border-top: 1px solid var(--rule);
+      font-size: 12px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(18px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <header>
+      <div class="label">Legal</div>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Effective date: March 2026 &nbsp;·&nbsp; Version 1.0</p>
+    </header>
+
+    <div class="card" style="margin-bottom: 48px;">
+      <p><strong>Short version:</strong> We do not collect, store, or share any information about you or your device. Your work stays entirely on your machine.</p>
+    </div>
+
+    <section>
+      <h2>Introduction</h2>
+      <p>This Privacy Policy describes how EZ VDC Services &amp; Plug-ins ("we", "our", or "us") handles information in connection with our Autodesk desktop application ("the Application"). We are committed to protecting your privacy.</p>
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2>Information We Collect</h2>
+      <p>We collect <strong>no information</strong> about you or your device. The Application does not require you to provide any personal details, create an account, or submit any data to us in order to function.</p>
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2>Data Storage</h2>
+      <p>We do not store any information. All operations performed by the Application occur entirely on your local device and nothing is transmitted to our servers or any third-party servers.</p>
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2>Third-Party Sharing</h2>
+      <p>We never share, sell, rent, or disclose any information to third parties — because we do not collect any in the first place.</p>
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2>Autodesk Platform</h2>
+      <p>The Application runs within the Autodesk ecosystem. Your use of Autodesk products is subject to <a class="contact-link" href="https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement" target="_blank">Autodesk's own Privacy Statement</a>, which governs data handled by Autodesk independently of this Application.</p>
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2>Changes to This Policy</h2>
+      <p>If we ever update this Privacy Policy, the new version will be posted at this URL and the effective date will be updated. We encourage you to review this page periodically.</p>
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2>Contact Us</h2>
+      <p>If you have any questions about this Privacy Policy, please reach out at <a class="contact-link" href="mailto:purrutia@alumni.stanford.edu">purrutia@alumni.stanford.edu</a>.</p>
+    </section>
+
+    <footer>
+      <span>© 2026 EZ VDC Services &amp; Plug-ins. All rights reserved.</span>
+      <span>Privacy Policy v1.0</span>
+    </footer>
+
+  </div>
+</body>
+</html>
